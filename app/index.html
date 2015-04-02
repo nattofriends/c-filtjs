@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>c++filtjs</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="compiled.js" async></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>c++filtjs</h1>
+
+            c++ gibberish &rarr; English (supports g++ and msvc++)
+
+            <br /><br />
+            <input id="in" value="_ZN9wikipedia7article8wikilinkC1ERKSs"></input>
+            <pre id="out">Loading...</pre>
+
+            <div id="info">
+                c++filt, with emscripten. it's actually one of the <a href="https://github.com/kripken/emscripten/commit/5f4f3fe49a065a7e5ccbc9116e8d966f37e3516a">test cases</a>. <br />
+                msvc++ demangling by <a href="http://source.winehq.org/source/dlls/msvcrt/undname.c#L1542">wine's implementation of __unDName</a>. <br />
+                inspiration by <a href="http://cdecl.org">cdecl.org</a> and <a href="http://stackoverflow.com/questions/3006438/is-there-an-online-name-demangler-for-c">this SO question</a>
+            </div>
+        </div>
+    </body>
+</html>
+

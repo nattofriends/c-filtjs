@@ -1,0 +1,9 @@
+[submodule "wine"]
+	path = wine
+	url = https://github.com/wine-mirror/wine
+[submodule "gcc"]
+	path = gcc
+	url = https://github.com/gcc-mirror/gcc
+[submodule "talloc"]
+	path = talloc
+	url = https://github.com/esneider/talloc

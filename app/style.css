@@ -1,0 +1,20 @@
+body, #in, pre {
+    font: 1.3em Monaco, Consolas, "Courier New", Courier, mono;
+}
+
+#in {
+    font-size: 1.1em;
+    width: 80%;
+}
+
+#info {
+    margin-top: 20px;
+    font-size: 0.6em;
+    color: gray;
+    margin-left: 30px;
+}
+
+#container {
+    margin: 150px 0 0 0;
+    padding: 0 100px;
+}

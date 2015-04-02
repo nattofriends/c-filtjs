@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+ln -f wine/dlls/msvcrt/undname.c
+sed -i 's/static\s*void\*\s*und_alloc/\0__UNUSED/' undname.c
+sed -i 's/static\s*void\s*und_free_all/\0__UNUSED/' undname.c
